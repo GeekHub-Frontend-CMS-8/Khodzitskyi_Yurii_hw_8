@@ -1,0 +1,10 @@
+@import "variables";
+header {
+  background:grey url("/../img/header-background.png") no-repeat;
+  background-size: cover;
+  .container {
+    @include container;
+    padding-top: 65px;
+  }
+}
+@import "media-q";
