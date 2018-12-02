@@ -1,0 +1,11 @@
+@import "variables";
+.logos-section{
+  .container {
+    @include container;
+    padding: 60px 10px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@import "media-q";

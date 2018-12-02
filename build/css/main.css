@@ -1163,3 +1163,81 @@ table {
     order: 1; }
   .clients-section .container .clients-right-img-element .image-block {
     order: 2; } }
+
+@font-face {
+  font-family: 'Brandon Grotesque', sans-serif;
+  src: url("/../fonts/BrandonGrotesque-Regular.eot");
+  src: local("Brandon Grotesque Regular"), local("BrandonGrotesque-Regular"), url("/../fonts/BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("/../fonts/BrandonGrotesque-Regular.woff") format("woff"), url("/../fonts/BrandonGrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Bold', sans-serif;
+  src: url("/../fonts/BrandonGrotesque-Bold.eot");
+  src: local("Brandon Grotesque Bold"), local("BrandonGrotesque-Bold"), url("/../fonts/BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("/../fonts/BrandonGrotesque-Bold.woff") format("woff"), url("/../fonts/BrandonGrotesque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  src: url("/../fonts/BrandonGrotesque-Light.eot");
+  src: local("Brandon Grotesque Light"), local("BrandonGrotesque-Light"), url("/../fonts/BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("/../fonts/BrandonGrotesque-Light.woff") format("woff"), url("/../fonts/BrandonGrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Cubano';
+  src: url("/../fonts/cubano-regular-webfont.eot");
+  src: url("/../fonts/cubano-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/../fonts/cubano-regular-webfont.woff") format("woff"), url("/../fonts/cubano-regular-webfont.ttf") format("truetype"), url("/../fonts/cubano-regular-webfont.svg#CubanoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.logos-section .container {
+  margin: auto;
+  padding: 100px 0;
+  max-width: 940px;
+  display: flex;
+  padding: 60px 10px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+@media only screen and (min-width: 350px) {
+  .home button {
+    padding: 20px 65px; } }
+
+@media only screen and (min-width: 576px) {
+  .home h1 {
+    font-size: 66px; }
+  .web-dev-section .container .web-text-block h2 {
+    font-size: 60px; }
+  .branding-section .container .branding-text-block h2 {
+    font-size: 60px; }
+  .clients-section .container .text-block {
+    padding: 40px 85px 40px 100px;
+    max-width: 660px; } }
+
+@media only screen and (min-width: 768px) {
+  #menu {
+    display: flex; }
+  .slicknav_menu {
+    display: none;
+    position: relative; }
+  .web-dev-section .container {
+    flex-direction: row; }
+    .web-dev-section .container .web-img-block {
+      margin-left: 40px; }
+      .web-dev-section .container .web-img-block img {
+        min-width: 240px; }
+  .branding-section .container {
+    flex-direction: row; }
+    .branding-section .container .branding-img-block {
+      margin-right: 40px; }
+      .branding-section .container .branding-img-block img {
+        min-width: 270px; } }
+
+@media only screen and (min-width: 934px) {
+  .clients-section .container .clients-right-img-element .text-block {
+    order: 1; }
+  .clients-section .container .clients-right-img-element .image-block {
+    order: 2; } }
