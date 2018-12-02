@@ -261,6 +261,8 @@ table {
   .home h1 {
     font-size: 66px; }
   .web-dev-section .container .web-text-block h2 {
+    font-size: 60px; }
+  .branding-section .container .branding-text-block h2 {
     font-size: 60px; } }
 
 @media only screen and (min-width: 768px) {
@@ -271,8 +273,16 @@ table {
     position: relative; }
   .web-dev-section .container {
     flex-direction: row; }
-    .web-dev-section .container .web-img-block img {
-      min-width: 240px; } }
+    .web-dev-section .container .web-img-block {
+      margin-left: 40px; }
+      .web-dev-section .container .web-img-block img {
+        min-width: 240px; }
+  .branding-section .container {
+    flex-direction: row; }
+    .branding-section .container .branding-img-block {
+      margin-right: 40px; }
+      .branding-section .container .branding-img-block img {
+        min-width: 270px; } }
 
 @media only screen and (min-width: 350px) {
   .home button {
@@ -282,6 +292,8 @@ table {
   .home h1 {
     font-size: 66px; }
   .web-dev-section .container .web-text-block h2 {
+    font-size: 60px; }
+  .branding-section .container .branding-text-block h2 {
     font-size: 60px; } }
 
 @media only screen and (min-width: 768px) {
@@ -292,8 +304,16 @@ table {
     position: relative; }
   .web-dev-section .container {
     flex-direction: row; }
-    .web-dev-section .container .web-img-block img {
-      min-width: 240px; } }
+    .web-dev-section .container .web-img-block {
+      margin-left: 40px; }
+      .web-dev-section .container .web-img-block img {
+        min-width: 240px; }
+  .branding-section .container {
+    flex-direction: row; }
+    .branding-section .container .branding-img-block {
+      margin-right: 40px; }
+      .branding-section .container .branding-img-block img {
+        min-width: 270px; } }
 
 @font-face {
   font-family: 'Brandon Grotesque', sans-serif;
@@ -411,6 +431,8 @@ table {
   .home h1 {
     font-size: 66px; }
   .web-dev-section .container .web-text-block h2 {
+    font-size: 60px; }
+  .branding-section .container .branding-text-block h2 {
     font-size: 60px; } }
 
 @media only screen and (min-width: 768px) {
@@ -421,8 +443,16 @@ table {
     position: relative; }
   .web-dev-section .container {
     flex-direction: row; }
-    .web-dev-section .container .web-img-block img {
-      min-width: 240px; } }
+    .web-dev-section .container .web-img-block {
+      margin-left: 40px; }
+      .web-dev-section .container .web-img-block img {
+        min-width: 240px; }
+  .branding-section .container {
+    flex-direction: row; }
+    .branding-section .container .branding-img-block {
+      margin-right: 40px; }
+      .branding-section .container .branding-img-block img {
+        min-width: 270px; } }
 
 /*!
  * SlickNav Responsive Mobile Menu v1.0.10
@@ -617,6 +647,8 @@ table {
   .home h1 {
     font-size: 66px; }
   .web-dev-section .container .web-text-block h2 {
+    font-size: 60px; }
+  .branding-section .container .branding-text-block h2 {
     font-size: 60px; } }
 
 @media only screen and (min-width: 768px) {
@@ -627,8 +659,16 @@ table {
     position: relative; }
   .web-dev-section .container {
     flex-direction: row; }
-    .web-dev-section .container .web-img-block img {
-      min-width: 240px; } }
+    .web-dev-section .container .web-img-block {
+      margin-left: 40px; }
+      .web-dev-section .container .web-img-block img {
+        min-width: 240px; }
+  .branding-section .container {
+    flex-direction: row; }
+    .branding-section .container .branding-img-block {
+      margin-right: 40px; }
+      .branding-section .container .branding-img-block img {
+        min-width: 270px; } }
 
 @font-face {
   font-family: 'Brandon Grotesque', sans-serif;
@@ -686,6 +726,9 @@ table {
       font-weight: 400;
       line-height: 24px; }
   .web-dev-section .container .web-img-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 15px;
     text-align: center; }
     .web-dev-section .container .web-img-block img {
@@ -700,6 +743,8 @@ table {
   .home h1 {
     font-size: 66px; }
   .web-dev-section .container .web-text-block h2 {
+    font-size: 60px; }
+  .branding-section .container .branding-text-block h2 {
     font-size: 60px; } }
 
 @media only screen and (min-width: 768px) {
@@ -710,5 +755,111 @@ table {
     position: relative; }
   .web-dev-section .container {
     flex-direction: row; }
-    .web-dev-section .container .web-img-block img {
-      min-width: 240px; } }
+    .web-dev-section .container .web-img-block {
+      margin-left: 40px; }
+      .web-dev-section .container .web-img-block img {
+        min-width: 240px; }
+  .branding-section .container {
+    flex-direction: row; }
+    .branding-section .container .branding-img-block {
+      margin-right: 40px; }
+      .branding-section .container .branding-img-block img {
+        min-width: 270px; } }
+
+@font-face {
+  font-family: 'Brandon Grotesque', sans-serif;
+  src: url("/../fonts/BrandonGrotesque-Regular.eot");
+  src: local("Brandon Grotesque Regular"), local("BrandonGrotesque-Regular"), url("/../fonts/BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("/../fonts/BrandonGrotesque-Regular.woff") format("woff"), url("/../fonts/BrandonGrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Bold', sans-serif;
+  src: url("/../fonts/BrandonGrotesque-Bold.eot");
+  src: local("Brandon Grotesque Bold"), local("BrandonGrotesque-Bold"), url("/../fonts/BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("/../fonts/BrandonGrotesque-Bold.woff") format("woff"), url("/../fonts/BrandonGrotesque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  src: url("/../fonts/BrandonGrotesque-Light.eot");
+  src: local("Brandon Grotesque Light"), local("BrandonGrotesque-Light"), url("/../fonts/BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("/../fonts/BrandonGrotesque-Light.woff") format("woff"), url("/../fonts/BrandonGrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Cubano';
+  src: url("/../fonts/cubano-regular-webfont.eot");
+  src: url("/../fonts/cubano-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/../fonts/cubano-regular-webfont.woff") format("woff"), url("/../fonts/cubano-regular-webfont.ttf") format("truetype"), url("/../fonts/cubano-regular-webfont.svg#CubanoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.branding-section {
+  background-color: #fafafa; }
+  .branding-section .container {
+    margin: auto;
+    padding: 100px 0;
+    max-width: 940px;
+    display: flex;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    flex-direction: column; }
+    .branding-section .container .branding-img-block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+      .branding-section .container .branding-img-block img {
+        width: 100%;
+        max-width: 270px; }
+    .branding-section .container .branding-text-block {
+      margin: 0 15px; }
+      .branding-section .container .branding-text-block h2 {
+        color: #222222;
+        font-size: 60px;
+        font-family: "Brandon Grotesque Light",sans-serif;
+        font-weight: 300;
+        letter-spacing: -1.5px;
+        margin-bottom: 35px;
+        font-size: 14vw; }
+        .branding-section .container .branding-text-block h2 span {
+          font-family: "Brandon Grotesque Bold",sans-serif;
+          font-weight: 700; }
+      .branding-section .container .branding-text-block p {
+        margin-bottom: 40px;
+        color: #777777;
+        font-family: "Brandon Grotesque", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px; }
+
+@media only screen and (min-width: 350px) {
+  .home button {
+    padding: 20px 65px; } }
+
+@media only screen and (min-width: 576px) {
+  .home h1 {
+    font-size: 66px; }
+  .web-dev-section .container .web-text-block h2 {
+    font-size: 60px; }
+  .branding-section .container .branding-text-block h2 {
+    font-size: 60px; } }
+
+@media only screen and (min-width: 768px) {
+  #menu {
+    display: flex; }
+  .slicknav_menu {
+    display: none;
+    position: relative; }
+  .web-dev-section .container {
+    flex-direction: row; }
+    .web-dev-section .container .web-img-block {
+      margin-left: 40px; }
+      .web-dev-section .container .web-img-block img {
+        min-width: 240px; }
+  .branding-section .container {
+    flex-direction: row; }
+    .branding-section .container .branding-img-block {
+      margin-right: 40px; }
+      .branding-section .container .branding-img-block img {
+        min-width: 270px; } }

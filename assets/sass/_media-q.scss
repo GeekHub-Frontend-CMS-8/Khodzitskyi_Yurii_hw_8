@@ -22,6 +22,15 @@
       }
     }
   }
+  .branding-section {
+    .container {
+      .branding-text-block {
+        h2 {
+          font-size: 60px;
+        }
+      }
+    }
+  }
 }
 
 //md
@@ -38,8 +47,20 @@
     .container {
       flex-direction: row;
       .web-img-block {
+        margin-left: 40px;
         img {
           min-width: 240px;
+        }
+      }
+    }
+  }
+  .branding-section {
+    .container {
+      flex-direction: row;
+      .branding-img-block {
+        margin-right: 40px;
+        img {
+          min-width: 270px;
         }
       }
     }
