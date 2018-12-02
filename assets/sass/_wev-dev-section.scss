@@ -1,0 +1,33 @@
+@import "variables";
+.web-dev-section {
+  .container {
+    @include container;
+    padding-bottom: 60px;
+    flex-direction: column-reverse;
+    .web-text-block {
+      margin: 0 15px;
+      h2 {
+        @include section-header-thin-bold;
+        margin-bottom: 35px;
+        font-size: 14vw;
+      }
+      p {
+        margin-bottom: 40px;
+        color: #777777;
+        font-family: "Brandon Grotesque", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+    .web-img-block {
+      margin-right: 15px;
+      text-align: center;
+      img {
+        width: 100%;
+        max-width: 240px;
+      }
+    }
+  }
+}
+@import "media-q";

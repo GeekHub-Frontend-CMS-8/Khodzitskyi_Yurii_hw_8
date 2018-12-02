@@ -4,6 +4,17 @@
   max-width: 940px;
   display: flex;
 }
+@mixin section-header-thin-bold {
+  color: #222222;
+  font-size: 60px;
+  font-family: "Brandon Grotesque Light",sans-serif;
+  font-weight: 300;
+  letter-spacing: -1.5px;
+  span {
+    font-family: "Brandon Grotesque Bold",sans-serif;
+    font-weight: 700;
+  }
+}
 @font-face {
   font-family: 'Brandon Grotesque', sans-serif;
   src: url('/../fonts/BrandonGrotesque-Regular.eot');
