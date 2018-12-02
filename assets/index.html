@@ -23,11 +23,10 @@
             <nav role="navigation">
                 <ul id="menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Clients</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Team</a></li>
+                    <li><a href="#services-anchor">Services</a></li>
+                    <li><a href="#clients-anchor">Clients</a></li>
+                    <li><a href="#team-anchor">Team</a></li>
+                    <li><a href="#contact-anchor">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -86,7 +85,7 @@
         </div>
     </section>
 <!--skills section-->
-    <section class="skills-section">
+    <section class="skills-section" id="services-anchor">
         <div class="container">
             <div class="skills-element">
                 <div class="skill-image">
@@ -181,7 +180,7 @@
         </div>
     </section>
 <!--clients section-->
-    <section class="clients-section">
+    <section class="clients-section" id="clients-anchor">
         <div class="container">
             <h2>
                 Awesome <span>Clients</span>
@@ -221,15 +220,23 @@
     </section>
 <!--logos section-->
     <section class="logos-section">
-        <div class="container">
-            <img src="img/logo-Envato.png" alt="evanto">
-            <img src="img/logo-WordPress.png" alt="WP">
-            <img src="img/logo-Tuts+.png" alt="tuts">
-            <img src="img/logo-Microlancer.png" alt="microlancer">
-        </div>
+            <ul class="container">
+                <li>
+                    <img src="img/logo-Envato.png" alt="evanto">
+                </li>
+                <li>
+                    <img src="img/logo-WordPress.png" alt="WP">
+                </li>
+                <li>
+                    <img src="img/logo-Tuts+.png" alt="tuts">
+                </li>
+                <li>
+                    <img src="img/logo-Microlancer.png" alt="microlancer">
+                </li>
+            </ul>
     </section>
 <!--team section-->
-    <section class="team-section">
+    <section class="team-section" id="team-anchor">
         <div class="container">
             <h2>Amazing <span>Team</span></h2>
             <p>
@@ -257,10 +264,10 @@
                         <img src="img/teammate.jpg" alt="">
                     </div>
                     <strong>
-                        Kimberly Thompson
+                        Rico Massimo
                     </strong>
                     <p>
-                        Marketer
+                        Coder
                     </p>
                     <div class="team-social-wrapper">
                         <a href="#" class="fa fa-twitter"></a>
@@ -273,10 +280,10 @@
                         <img src="img/teammate.jpg" alt="">
                     </div>
                     <strong>
-                        Kimberly Thompson
+                        Uku Mason
                     </strong>
                     <p>
-                        Marketer
+                        Graphic Designer
                     </p>
                     <div class="team-social-wrapper">
                         <a href="#" class="fa fa-facebook"></a>
@@ -291,5 +298,71 @@
             </p>
         </div>
     </section>
+<!--contact-->
+    <footer id="contact-anchor">
+        <div class="container">
+            <div class="contact-info-wrapper">
+                <h2>
+                    Say <span>Hello</span>
+                </h2>
+                <p>
+                    Don’t be shy, drop us an email and say hello! We are a really nice
+                    bunch of people :)
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-mobile"></i>
+                            (416) 555-0000
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-envelope"></i>
+                            hello@escape.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                            @escape
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                            facebook.com/escape
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-google-plus"></i>
+                            plus.com/escape
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-pinterest-p"></i>
+                            pinterest.com/escape
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form>
+                <label for="name">
+                    <input id="name" type="text" placeholder="Your Name *">
+                </label>
+                <label for="email">
+                    <input id="email" type="text" placeholder="Your E-mail *">
+                </label>
+                <label for="textarea">
+                    <textarea name="Messahe" id="textarea" placeholder="Your Message *"></textarea>
+                </label>
+            </form>
+        </div>
+        <div class="copyright">
+            <p>© 2014 Escape by FreebiesXpress • Made In Toronto</p>
+        </div>
+    </footer>
 </body>
 </html>

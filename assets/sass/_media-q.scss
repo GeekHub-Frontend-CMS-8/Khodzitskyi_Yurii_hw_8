@@ -62,6 +62,11 @@
       }
     }
   }
+  .skills-section {
+    .container {
+      justify-content: space-between;
+    }
+  }
   .branding-section {
     .container {
       flex-direction: row;
@@ -80,12 +85,43 @@
     .container {
       .clients-right-img-element {
         .text-block {
+          margin: 0 20px 0 0;
+          border: none;
+          background: url("../img/clients-R-Speak.png") no-repeat;
           order: 1;
         }
         .image-block {
           order: 2;
         }
       }
+      .clients-left-img-element {
+        .text-block {
+          margin: 0 0 0 20px;
+          border: none;
+          background: url("../img/client-L-Speak.png") no-repeat;
+        }
+        .image-block {
+
+        }
+      }
+    }
+  }
+  footer {
+    .container {
+      justify-content: space-between;
+    }
+    .contact-info-wrapper {
+      margin-right: 30px;
+      width: 100%;
+      max-width: 47%;
+      h2 {
+        text-align: start;
+      }
+    }
+    form {
+      margin-left: 30px;
+      width: 100%;
+      max-width: 46%;
     }
   }
 }

@@ -22,8 +22,8 @@
       justify-content: space-around;
       width: 100%;
       .text-block {
-        margin: 0 0 0 20px;
-        background: url("../img/client-L-Speak.png") no-repeat;
+        border: 1px solid #e5e3d8;
+        background: #fff;
         background-size: 100% 100%;
       }
     }
@@ -35,9 +35,9 @@
       justify-content: space-around;
       width: 100%;
       .text-block {
-        margin: 0 20px 0 0;
+        border: 1px solid #e5e3d8;
         order: 2;
-        background: url("../img/clients-R-Speak.png") no-repeat;
+        background: #fff;
       }
       .image-block {
         order: 1;
