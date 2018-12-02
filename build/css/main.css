@@ -1,3 +1,6 @@
+body {
+  font-family: 'Brandon Grotesque', sans-serif; }
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -52,11 +55,225 @@ table {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Brandon Grotesque';
+  font-family: 'Brandon Grotesque Light';
   src: url("/../fonts/BrandonGrotesque-Light.eot");
   src: local("Brandon Grotesque Light"), local("BrandonGrotesque-Light"), url("/../fonts/BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("/../fonts/BrandonGrotesque-Light.woff") format("woff"), url("/../fonts/BrandonGrotesque-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
+
+@font-face {
+  font-family: 'Cubano';
+  src: url("/../fonts/cubano-regular-webfont.eot");
+  src: url("/../fonts/cubano-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/../fonts/cubano-regular-webfont.woff") format("woff"), url("/../fonts/cubano-regular-webfont.ttf") format("truetype"), url("/../fonts/cubano-regular-webfont.svg#CubanoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*!
+ * SlickNav Responsive Mobile Menu v1.0.10
+ * (c) 2016 Josh Cope
+ * licensed under MIT
+ */
+.slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.438em 0.625em 0.438em 0.625em;
+  line-height: 1.125em;
+  cursor: pointer; }
+
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.3em; }
+
+.slicknav_menu {
+  *zoom: 1; }
+
+.slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left; }
+
+.slicknav_menu .slicknav_icon {
+  float: left;
+  width: 1.125em;
+  height: 0.875em;
+  margin: 0.188em 0 0 0.438em; }
+
+.slicknav_menu .slicknav_icon:before {
+  background: transparent;
+  width: 1.125em;
+  height: 0.875em;
+  display: block;
+  content: "";
+  position: absolute; }
+
+.slicknav_menu .slicknav_no-text {
+  margin: 0; }
+
+.slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 1.7em;
+  height: 0.2em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+
+.slicknav_menu:before {
+  content: " ";
+  display: table; }
+
+.slicknav_menu:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.slicknav_nav {
+  clear: both; }
+
+.slicknav_nav ul {
+  display: block; }
+
+.slicknav_nav li {
+  display: block; }
+
+.slicknav_nav .slicknav_arrow {
+  font-size: 0.8em;
+  margin: 0 0 0 0.4em; }
+
+.slicknav_nav .slicknav_item {
+  cursor: pointer; }
+
+.slicknav_nav .slicknav_item a {
+  display: inline; }
+
+.slicknav_nav .slicknav_row {
+  display: block; }
+
+.slicknav_nav a {
+  display: block; }
+
+.slicknav_nav .slicknav_parent-link a {
+  display: inline; }
+
+.slicknav_brand {
+  float: left; }
+
+.slicknav_menu {
+  font-family: "Brandon Grotesque",sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  box-sizing: border-box;
+  background: none;
+  padding: 5px; }
+
+.slicknav_menu * {
+  box-sizing: border-box; }
+
+.slicknav_menu .slicknav_menutxt {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 3px #000; }
+
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #fff; }
+
+.slicknav_btn {
+  margin: 5px 5px 6px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: transparent; }
+
+.slicknav_nav {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875em;
+  list-style: none;
+  overflow: hidden; }
+
+.slicknav_nav ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 0 0 20px; }
+
+.slicknav_nav .slicknav_row {
+  padding: 5px 10px;
+  margin: 2px 5px; }
+
+.slicknav_nav .slicknav_row:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #fff; }
+
+.slicknav_nav a {
+  padding: 5px 10px;
+  margin: 2px 5px;
+  text-decoration: none;
+  color: #fff; }
+
+.slicknav_nav a:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #222; }
+
+.slicknav_nav .slicknav_txtnode {
+  margin-left: 15px; }
+
+.slicknav_nav .slicknav_item a {
+  padding: 0;
+  margin: 0; }
+
+.slicknav_nav .slicknav_parent-link a {
+  padding: 0;
+  margin: 0; }
+
+.slicknav_brand {
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 7px 12px;
+  height: 44px; }
+
+@media only screen and (min-width: 350px) {
+  .home button {
+    padding: 20px 65px; } }
+
+@media only screen and (min-width: 576px) {
+  .home h1 {
+    font-size: 66px; } }
+
+@media only screen and (min-width: 768px) {
+  #menu {
+    display: flex; }
+  .slicknav_menu {
+    display: none;
+    position: relative; } }
+
+@media only screen and (min-width: 350px) {
+  .home button {
+    padding: 20px 65px; } }
+
+@media only screen and (min-width: 576px) {
+  .home h1 {
+    font-size: 66px; } }
+
+@media only screen and (min-width: 768px) {
+  #menu {
+    display: flex; }
+  .slicknav_menu {
+    display: none;
+    position: relative; } }
 
 @font-face {
   font-family: 'Brandon Grotesque', sans-serif;
@@ -73,18 +290,302 @@ table {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Brandon Grotesque';
+  font-family: 'Brandon Grotesque Light';
   src: url("/../fonts/BrandonGrotesque-Light.eot");
   src: local("Brandon Grotesque Light"), local("BrandonGrotesque-Light"), url("/../fonts/BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("/../fonts/BrandonGrotesque-Light.woff") format("woff"), url("/../fonts/BrandonGrotesque-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
 
-header {
-  background: grey url("/../img/header-background.png") no-repeat;
-  background-size: cover; }
-  header .container {
+@font-face {
+  font-family: 'Cubano';
+  src: url("/../fonts/cubano-regular-webfont.eot");
+  src: url("/../fonts/cubano-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/../fonts/cubano-regular-webfont.woff") format("woff"), url("/../fonts/cubano-regular-webfont.ttf") format("truetype"), url("/../fonts/cubano-regular-webfont.svg#CubanoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.top-section {
+  background: grey url("../img/header-background.png") no-repeat;
+  background-size: cover;
+  color: #fff; }
+  .top-section header {
     margin: auto;
     padding: 100px 0;
     max-width: 940px;
     display: flex;
-    padding-top: 65px; }
+    flex-direction: row;
+    padding-top: 65px;
+    justify-content: space-between;
+    align-items: center; }
+    .top-section header .logo {
+      padding-left: 10px;
+      font-family: Cubano, sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff; }
+      .top-section header .logo:hover {
+        text-decoration: none; }
+
+.home {
+  margin: auto;
+  padding: 100px 0;
+  max-width: 940px;
+  display: flex;
+  padding-top: 60px;
+  text-align: center;
+  flex-direction: column; }
+  .home h2 {
+    color: #ffffff;
+    font-family: "Brandon Grotesque",sans-serif;
+    font-size: 32px;
+    font-weight: 300; }
+  .home h1 {
+    padding: 40px 0 65px;
+    color: #fff;
+    font-family: "Brandon Grotesque",sans-serif;
+    font-size: 20vw;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .home button {
+    margin: auto;
+    padding: 20px 20px;
+    outline: none;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Brandon Grotesque",sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0); }
+    .home button:hover {
+      background-color: rgba(235, 235, 235, 0.16);
+      cursor: pointer; }
+
+#menu {
+  display: none;
+  list-style: none; }
+  #menu a {
+    padding: 15px;
+    color: #fff;
+    font-family: "Brandon Grotesque",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none; }
+    #menu a:hover {
+      color: #b7b7b7;
+      text-decoration: none; }
+
+.slicknav_menu {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 55px;
+  background: #ffffff; }
+
+@media only screen and (min-width: 350px) {
+  .home button {
+    padding: 20px 65px; } }
+
+@media only screen and (min-width: 576px) {
+  .home h1 {
+    font-size: 66px; } }
+
+@media only screen and (min-width: 768px) {
+  #menu {
+    display: flex; }
+  .slicknav_menu {
+    display: none;
+    position: relative; } }
+
+/*!
+ * SlickNav Responsive Mobile Menu v1.0.10
+ * (c) 2016 Josh Cope
+ * licensed under MIT
+ */
+.slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.438em 0.625em 0.438em 0.625em;
+  line-height: 1.125em;
+  cursor: pointer; }
+
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.3em; }
+
+.slicknav_menu {
+  *zoom: 1; }
+
+.slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left; }
+
+.slicknav_menu .slicknav_icon {
+  float: left;
+  width: 1.125em;
+  height: 0.875em;
+  margin: 0.188em 0 0 0.438em; }
+
+.slicknav_menu .slicknav_icon:before {
+  background: transparent;
+  width: 1.125em;
+  height: 0.875em;
+  display: block;
+  content: "";
+  position: absolute; }
+
+.slicknav_menu .slicknav_no-text {
+  margin: 0; }
+
+.slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 1.7em;
+  height: 0.2em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+
+.slicknav_menu:before {
+  content: " ";
+  display: table; }
+
+.slicknav_menu:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.slicknav_nav {
+  clear: both; }
+
+.slicknav_nav ul {
+  display: block; }
+
+.slicknav_nav li {
+  display: block; }
+
+.slicknav_nav .slicknav_arrow {
+  font-size: 0.8em;
+  margin: 0 0 0 0.4em; }
+
+.slicknav_nav .slicknav_item {
+  cursor: pointer; }
+
+.slicknav_nav .slicknav_item a {
+  display: inline; }
+
+.slicknav_nav .slicknav_row {
+  display: block; }
+
+.slicknav_nav a {
+  display: block; }
+
+.slicknav_nav .slicknav_parent-link a {
+  display: inline; }
+
+.slicknav_brand {
+  float: left; }
+
+.slicknav_menu {
+  font-family: "Brandon Grotesque",sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  box-sizing: border-box;
+  background: none;
+  padding: 5px; }
+
+.slicknav_menu * {
+  box-sizing: border-box; }
+
+.slicknav_menu .slicknav_menutxt {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 3px #000; }
+
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #fff; }
+
+.slicknav_btn {
+  margin: 5px 5px 6px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: transparent; }
+
+.slicknav_nav {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875em;
+  list-style: none;
+  overflow: hidden; }
+
+.slicknav_nav ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 0 0 20px; }
+
+.slicknav_nav .slicknav_row {
+  padding: 5px 10px;
+  margin: 2px 5px; }
+
+.slicknav_nav .slicknav_row:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #fff; }
+
+.slicknav_nav a {
+  padding: 5px 10px;
+  margin: 2px 5px;
+  text-decoration: none;
+  color: #fff; }
+
+.slicknav_nav a:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #222; }
+
+.slicknav_nav .slicknav_txtnode {
+  margin-left: 15px; }
+
+.slicknav_nav .slicknav_item a {
+  padding: 0;
+  margin: 0; }
+
+.slicknav_nav .slicknav_parent-link a {
+  padding: 0;
+  margin: 0; }
+
+.slicknav_brand {
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 7px 12px;
+  height: 44px; }
+
+@media only screen and (min-width: 350px) {
+  .home button {
+    padding: 20px 65px; } }
+
+@media only screen and (min-width: 576px) {
+  .home h1 {
+    font-size: 66px; } }
+
+@media only screen and (min-width: 768px) {
+  #menu {
+    display: flex; }
+  .slicknav_menu {
+    display: none;
+    position: relative; } }

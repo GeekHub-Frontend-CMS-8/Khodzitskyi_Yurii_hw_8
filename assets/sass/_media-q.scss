@@ -1,10 +1,30 @@
+//xs
+@media only screen and (min-width: 350px) {
+  .home {
+    button {
+      padding: 20px 65px;
+    }
+  }
+}
 //sm
 @media only screen and (min-width: 576px) {
-
+  .home {
+    h1 {
+      font-size: 66px;
+    }
+  }
 }
+
 //md
 @media only screen and (min-width: 768px) {
+  #menu {
+    display:flex;
+  }
 
+  .slicknav_menu {
+    display:none;
+    position: relative;
+  }
 }
 //lg
 @media only screen and (min-width: 992px) {

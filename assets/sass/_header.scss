@@ -1,10 +1,87 @@
 @import "variables";
-header {
-  background:grey url("/../img/header-background.png") no-repeat;
+.top-section {
+  background:grey url("../img/header-background.png") no-repeat;
   background-size: cover;
-  .container {
+  color: #fff;
+  header {
     @include container;
+    flex-direction: row;
     padding-top: 65px;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      padding-left: 10px;
+      font-family: Cubano, sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
+.home {
+  @include container;
+  padding-top: 60px;
+  text-align: center;
+  flex-direction: column;
+  h2 {
+    color: #ffffff;
+    font-family: "Brandon Grotesque",sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+  }
+  h1 {
+    padding: 40px 0 65px;
+    color: #fff;
+    font-family: "Brandon Grotesque",sans-serif;
+    font-size: 20vw;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  button {
+    margin: auto;
+    padding: 20px 20px;
+    outline: none;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Brandon Grotesque",sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    background-color: rgba(0,0,0,0);
+    &:hover {
+      background-color: rgba(235, 235, 235, 0.16);
+      cursor: pointer;
+    }
+  }
+}
+//nav
+#menu {
+  display: none;
+  list-style: none;
+  a {
+    padding: 15px;
+    color: #fff;
+    font-family: "Brandon Grotesque",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    &:hover {
+      color: #b7b7b7;
+      text-decoration: none;
+    }
+  }
+}
+.slicknav_menu {
+  display:block;
+  position: absolute;
+  right: 10px;
+  top: 55px;
+  background: #ffffff;
+}
+
 @import "media-q";
