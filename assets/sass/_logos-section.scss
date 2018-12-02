@@ -2,10 +2,13 @@
 .logos-section{
   .container {
     @include container;
-    padding: 60px 10px;
+    padding: 40px 10px 60px;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    img {
+      margin: 20px 10px;
+    }
   }
 }
 @import "media-q";

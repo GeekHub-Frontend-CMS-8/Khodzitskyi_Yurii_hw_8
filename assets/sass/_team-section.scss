@@ -1,0 +1,102 @@
+@import "variables";
+.team-section {
+  background-color: #111111;
+  .container {
+    @include container;
+    padding: 100px 10px;
+    flex-flow: column;
+    max-width: 860px;
+    h2 {
+      @include section-header-thin-bold;
+      color: #fff;
+      text-align: center;
+    }
+    p {
+      color: #777777;
+      font-size: 22px;
+      font-weight: 400;
+      text-align: center;
+    }
+    .team-description {
+      margin: auto;
+      max-width: 600px;
+      color: #ebebeb;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .teammates {
+      padding: 50px 0;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+      .teammate-item {
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+        text-align: center;
+        .teammate-item-image-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 220px;
+          border-radius: 100%;
+          border: 5px solid #fff;
+          height: 220px;
+          overflow: hidden;
+          img {
+            max-height: 100%;
+          }
+        }
+        strong {
+          margin: 20px 0 10px;
+          color: #fff;
+          font-size: 18px;
+          font-family: "Brandon Grotesque Bold", sans-serif;
+          font-weight: 700;
+        }
+        p {
+          color: #ebebeb;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        .team-social-wrapper {
+          display: flex;
+          justify-content: center;
+          a {
+            margin: 5px;
+            color: #fff;
+            display: flex;
+            width: 41px;
+            height: 41px;
+            font-size: 1.5em;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #fff;
+            border-radius: 100%;
+            transition: 0.5s;
+            &:hover {
+              text-decoration: none;
+              transition: 0.5s;
+              border: none;
+            }
+          }
+          .fa-twitter:hover {
+            background-color: #00aced;
+          }
+          .fa-facebook:hover {
+            background-color: #3b5998;
+          }
+          .fa-pinterest-p:hover {
+            background-color: #d90f10;
+          }
+          .fa-google-plus:hover {
+            background-color: #d95232;
+          }
+        }
+      }
+    }
+  }
+}
+@import "media-q";
