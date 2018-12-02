@@ -31,6 +31,14 @@
       }
     }
   }
+  .clients-section {
+    .container {
+      .text-block {
+        padding: 40px 85px 40px 100px;
+        max-width: 660px;
+      }
+    }
+  }
 }
 
 //md
@@ -67,8 +75,19 @@
   }
 }
 //lg
-@media only screen and (min-width: 992px) {
-
+@media only screen and (min-width: 934px) {
+  .clients-section {
+    .container {
+      .clients-right-img-element {
+        .text-block {
+          order: 1;
+        }
+        .image-block {
+          order: 2;
+        }
+      }
+    }
+  }
 }
 //xl
 @media only screen and (min-width: 1200px) {
